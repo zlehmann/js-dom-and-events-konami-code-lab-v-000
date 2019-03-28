@@ -2,7 +2,6 @@ const code = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "Arro
 
 function init() {
   // Write your JavaScript code inside the init() function
-  const input = document.getElementById('input');
   let index = 0;
   document.addEventListener('keydown', function(e) {
     const key = e.key;
