@@ -5,17 +5,18 @@ function init() {
   const input = document.getElementById('input');
   let index = 0;
   input.addEventListener('keydown', function(e) {
-    const key = parseInt(e.detail || e.key);
-    if (key === code[index]) {
-      index++;
+    console.log(e);
+    //const key = parseInt(e.detail || e.key);
+    //if (key === code[index]) {
+    //  index++;
 
-      if (index === code.length) {
-        alert("Hurray!");
+    //  if (index === code.length) {
+    //    alert("Hurray!");
 
-        index = 0;
-      }
-    } else {
-      index = 0;
+    //    index = 0;
+    //  }
+    //} else {
+    //  index = 0;
     }
   });
 }
