@@ -4,7 +4,7 @@ function init() {
   // Write your JavaScript code inside the init() function
   const main = document.getElementById('solution');
 
-  main.style.height = "200px";
+  main.style.width = "200px";
   main.addEventListener('click', function(event) {
     alert("clicked");
   });
